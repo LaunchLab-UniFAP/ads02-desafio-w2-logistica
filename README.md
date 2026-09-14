@@ -43,9 +43,9 @@ Instrução: Edite as seções abaixo preenchendo as evidências críticas da du
 ## 📂 Identificação
 
 * Curso: [Sistemas de Informação / ADS]
-* Membro 1 (Nome & GitHub): @[Username] - [Nome Completo]
-* Membro 2 (Nome & GitHub): @[Username] - [Nome Completo]
-* Embaixador Vinculado: @[Username] - [Nome do Monitor]
+* Membro 1 (Nome & GitHub): @JoeversonSK - Joeverson Santana Souza
+* Membro 2 (Nome & GitHub): @feliperocha-ssj - Felipe Rocha Alencar
+* Embaixador Vinculado: @The-Saul - Saul Damasceno Gonçalves
 
 ## 🌍 Seção de Análise Crítica (Formação Geral)
 
