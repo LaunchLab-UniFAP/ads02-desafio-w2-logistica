@@ -2,6 +2,7 @@
 def processar_motor_coleta():
     limite_maximo = 50.0
     volume_acumulado = 0.0
+    capacidade_atingida = False
     
     print("--- MOTOR OPERACIONAL DE COLETA (ADS) ---")
     
@@ -20,12 +21,16 @@ def processar_motor_coleta():
             volume_acumulado += volume
             
             if volume_acumulado >= limite_maximo:
+                capacidade_atingida = True
                 print("Status: Capacidade Maxima Atingida")
                 break
         except ValueError:
             print("Erro: Entrada Invalida")
             
-    print(f"Volume Total: {volume_acumulado} m³")
+    print(f"Volume Total: {volume_acumulado:g} m³")
+
+    if capacidade_atingida:
+        print("Status: Capacidade Maxima Atingida")
 
 if __name__ == "__main__":
     processar_motor_coleta()

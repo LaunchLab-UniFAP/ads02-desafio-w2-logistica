@@ -50,7 +50,12 @@ Instrução: Edite as seções abaixo preenchendo as evidências críticas da du
 ## 🌍 Seção de Análise Crítica (Formação Geral)
 
 Com base no cenário proposto da semana, descreva qual o impacto humano, social, ético ou ambiental da tecnologia que sua célula colocou em produção. Como as decisões de código impactam o mundo físico e a vida do cidadão/empresa?
-💬 RESPOSTA DA CÉLULA: [Escreva sua análise crítica aqui]
+💬 RESPOSTA DA CÉLULA:
+
+O sistema criado ajuda a deixar a coleta seletiva mais organizada e eficiente, ao controlar o volume das caçambas e parar quando chega aos 50 m³, o sistema evita que o caminhão fique sobrecarregado e ajuda na segurança dos trabalhadores.
+Além disso, uma coleta mais organizada pode diminuir viagens desnecessarias, economizando combustível e reduzindo a poluição.
+Um simples limite de capacidade, por exemplo, pode evitar problemas no transporte, desperdício de recursos e até acidentes. Por isso, o sistema precisa ser simples, confiável e tratar erros de entrada corretamente.
+
 
 ## 💻 Seção de Engenharia e Governança de TI
 
