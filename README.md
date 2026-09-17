@@ -60,7 +60,9 @@ Um simples limite de capacidade, por exemplo, pode evitar problemas no transport
 ## 💻 Seção de Engenharia e Governança de TI
 
 Justifique a decisão de arquitetura técnica adotada pela célula nesta entrega. Como as regras de negócio de ADS e as estruturas de dados de SI foram construidas para garantir que a solução seja escalável e de fácil manutenção?
-💬 RESPOSTA DA CÉLULA: [Escreva sua justificativa técnica aqui]
+💬 RESPOSTA DA CÉLULA: 
+
+A arquitetura foi estruturada separando as responsabilidades em dois módulos principais: o motor operacional (ADS) e a camada de governança (SI). O módulo de SI atua na validação dos dados de entrada para garantir que apenas valores válidos (numéricos e positivos) sejam processados. Já o motor operacional de ADS gerencia a lógica acumulativa até o limite de 50 m³. Essa divisão garante alta coesão, facilidade de manutenção e escalabilidade para o sistema.
 
 ## 🛠️ Diário de Bordo da Bancada
 
